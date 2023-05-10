@@ -25,10 +25,10 @@ EMBEDDING_DEVICE = "cuda" if torch.cuda.is_available() else "mps" if torch.backe
 # supported LLM models
 llm_model_dict = {
     "chatyuan": "ClueAI/ChatYuan-large-v2",
-    "chatglm-6b-int4-qe": "THUDM/chatglm-6b-int4-qe",
-    "chatglm-6b-int4": "THUDM/chatglm-6b-int4",
-    "chatglm-6b-int8": "THUDM/chatglm-6b-int8",
-    "chatglm-6b": "THUDM/chatglm-6b",
+    "chatglm-6b-int4-qe": "/home/kan/chatglm/ChatGLM-6B",
+    "chatglm-6b-int4": "/home/kan/chatglm/ChatGLM-6B",
+    "chatglm-6b-int8": "/home/kan/chatglm_model/chatglm-6b-int8",
+    "chatglm-6b": "/home/kan/chatglm/ChatGLM-6B",
 }
 
 # LLM model name
